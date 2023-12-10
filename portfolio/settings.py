@@ -153,3 +153,6 @@ AUTH_USER_MODEL = "mini_blog.Blogger"
 SOCIALACCOUNT_PROVIDERS = {
     "google": {"APP": {"client_id": "123", "secret": "456", "key": ""}}
 }
+
+
+LOGIN_REDIRECT_URL = "/mini_blog/blogger/profile"
